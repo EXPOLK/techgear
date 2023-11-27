@@ -1,0 +1,135 @@
+/*-------------------------------
+    color, font & variable setup
+    -----------------------------*/
+
+    :root{
+        --font-base: "Inter", sans-serif;
+        --c-primary: #19B5FE;
+        --c-secondary: #FEFEFF;
+        --c-background: #222222;
+        --c-dark: #575657;
+        --c-black: #000000;
+    }
+    
+    body{
+        font-family: var(--font-base);
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+    
+    .h1 .h2 .h3 .h4 .h5 .h6 {
+        font-weight: 600;
+    }
+    
+    p{
+        font-family: var(--font-base);
+        font-size: 16px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: var(--c-primary);
+        font-weight: 300;
+        font-size: 12px !important;
+    }
+    a:hover{
+        color: var(--c-secondary);
+    }
+    
+    .section-padding{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /*-------------------------------
+        Button CSS Setup
+        -----------------------------*/
+    .btn{
+        font-weight: 500 !important;
+        
+    }
+    .btn-primary{
+        background-color: var(--c-primary) !important;
+        border: var(--c-primary) !important;
+    }
+    .btn-primary:hover{
+        background-color: var(--c-dark) !important;
+        border: var(--c-primary) !important;
+        transition: 0.5s !important;
+    }
+    .btn-light{
+        background-color: var(--c-background) !important;
+        color: var(--c-secondary) !important;
+    }
+    .btn-light:hover{
+        background-color: var(--c-secondary) !important;
+        color: var(--c-background) !important;
+        transition: 0.5s !important;
+    }
+    
+    /*-------------------------------
+        Navbar CSS Setup
+        -----------------------------*/
+    nav{
+        font-family: var(--font-base);
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .nav-item{
+        color: var(--c-dark) !important;
+    }
+    .nav-item:hover{
+        color: var(--c-primary) !important;
+    }
+    
+    .navbar-dark{
+        background-color: var(--c-background);
+    }
+    .navbar-brand{
+        font-weight: 700 !important;
+        font-size: 25px !important;
+    }
+    
+    
+    
+    /*-------------------------------
+        Hero CSS Setup
+        -----------------------------*/
+    .hero{
+        background-color: var(--c-background);
+    }
+    .hero-text{
+        color: var(--c-secondary);
+        font-weight: 700;   
+        font-size: 60px;
+    }
+    .hero-text-2{
+        color: var(--c-dark);
+    }
+    .hero-p{
+        color: var(--c-secondary);
+    }
+    .hero-vertical{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: var(--c-primary);
+        font-weight: 700;
+        font-size: 200px;
+        margin: 0px;
+        position: absolute;
+        z-index: 0;
+        margin-left: 500px !important;
+    }
+
+    
+    /*-------------------------------
+        About Us CSS Setup
+        -----------------------------*/
+    
