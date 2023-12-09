@@ -108,7 +108,8 @@
     .hero-text{
         color: var(--c-secondary);
         font-weight: 700;   
-        font-size: 60px;
+        /* font-size: 60px; */
+        font-size: 3vw;
     }
     .hero-text-2{
         color: var(--c-dark);
