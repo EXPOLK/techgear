@@ -134,6 +134,7 @@
     Product Section 
     ---------------------- */
     .section{
+        background-color: var(--c-background);
     }
 
     .section h1{
