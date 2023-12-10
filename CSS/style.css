@@ -130,6 +130,49 @@
     }
 
     
+    /* ----------------------
+    Product Section 
+    ---------------------- */
+    .section{
+    }
+
+    .section h1{
+        font-size: 4em !important;
+        color: var(--c-primary) !important;
+        opacity: 0.5;
+        font-weight: 800;
+    }
+    .section h4{
+        color: var(--c-secondary);
+    }
+    .head{
+        padding-top: 15vmin;
+    }
+    .product-item{
+        background-color: var(--c-dark);
+        border-radius: 50px;
+        height: 35vmin;
+    }
+    .product-item img{
+        margin-top: -10vmin;
+        position: relative;
+        transition: 0.5s;
+        transition-timing-function: ease-in-out;        
+    }
+    .product-item h4{
+        font-size: 2em;
+        margin-top: -4vmin;
+    }
+    .product-item img:hover{
+        scale: 110%;
+        transition: 0.5s;
+    }
+    .types{
+        margin-top: 20vmin;
+        
+    }
+
+
     /*-------------------------------
         About Us CSS Setup
         -----------------------------*/

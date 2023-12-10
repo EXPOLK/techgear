@@ -1,0 +1,8 @@
+@media only screen and (max-width: 768px) {
+    .navbar-brand{
+        padding-left: 1em;
+    }
+    .hero .container .row .hero-left{
+        padding-left: 5em !important;
+    }
+}
